@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D26C9471-CD6F-46FD-B9DC-7D4167CC6B37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{B679C846-D29A-4A4C-9791-3CE93B0BB06C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotflix.Modules.Application", "src\Modules\Dotflix.Modules.Application\Dotflix.Modules.Application.csproj", "{A96DA5EC-DA57-4F27-B0F9-E50229893D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotflix.Modules.Domain", "src\Modules\Dotflix.Modules.Domain\Dotflix.Modules.Domain.csproj", "{FDD55AB8-575F-4823-8768-52B7BB871B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotflix.Modules.Infra", "src\Modules\Dotflix.Modules.Infra\Dotflix.Modules.Infra.csproj", "{AA22DC53-B55E-43A0-A9F4-350F3CF08A20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0463417E-7633-448B-BFBF-2C017E1F6C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotflix.Ports.Api", "src\Services\Dotflix.Ports.Api\Dotflix.Ports.Api.csproj", "{42B85682-AB52-420C-91B4-CC5C186CA30E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{28216FDE-8F69-49F5-92F7-10284ABA17CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotflix.Adapters.InMemory", "src\Adapters\Dotflix.Adapters.InMemory\Dotflix.Adapters.InMemory.csproj", "{72185D54-BB5B-465A-92B1-58B965664BE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A96DA5EC-DA57-4F27-B0F9-E50229893D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96DA5EC-DA57-4F27-B0F9-E50229893D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96DA5EC-DA57-4F27-B0F9-E50229893D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96DA5EC-DA57-4F27-B0F9-E50229893D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD55AB8-575F-4823-8768-52B7BB871B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD55AB8-575F-4823-8768-52B7BB871B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD55AB8-575F-4823-8768-52B7BB871B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD55AB8-575F-4823-8768-52B7BB871B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA22DC53-B55E-43A0-A9F4-350F3CF08A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA22DC53-B55E-43A0-A9F4-350F3CF08A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA22DC53-B55E-43A0-A9F4-350F3CF08A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA22DC53-B55E-43A0-A9F4-350F3CF08A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B85682-AB52-420C-91B4-CC5C186CA30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B85682-AB52-420C-91B4-CC5C186CA30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B85682-AB52-420C-91B4-CC5C186CA30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B85682-AB52-420C-91B4-CC5C186CA30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72185D54-BB5B-465A-92B1-58B965664BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72185D54-BB5B-465A-92B1-58B965664BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72185D54-BB5B-465A-92B1-58B965664BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72185D54-BB5B-465A-92B1-58B965664BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B679C846-D29A-4A4C-9791-3CE93B0BB06C} = {D26C9471-CD6F-46FD-B9DC-7D4167CC6B37}
+		{A96DA5EC-DA57-4F27-B0F9-E50229893D6C} = {B679C846-D29A-4A4C-9791-3CE93B0BB06C}
+		{FDD55AB8-575F-4823-8768-52B7BB871B0D} = {B679C846-D29A-4A4C-9791-3CE93B0BB06C}
+		{AA22DC53-B55E-43A0-A9F4-350F3CF08A20} = {B679C846-D29A-4A4C-9791-3CE93B0BB06C}
+		{0463417E-7633-448B-BFBF-2C017E1F6C4F} = {D26C9471-CD6F-46FD-B9DC-7D4167CC6B37}
+		{42B85682-AB52-420C-91B4-CC5C186CA30E} = {0463417E-7633-448B-BFBF-2C017E1F6C4F}
+		{28216FDE-8F69-49F5-92F7-10284ABA17CD} = {D26C9471-CD6F-46FD-B9DC-7D4167CC6B37}
+		{72185D54-BB5B-465A-92B1-58B965664BE1} = {28216FDE-8F69-49F5-92F7-10284ABA17CD}
+	EndGlobalSection
+EndGlobal
